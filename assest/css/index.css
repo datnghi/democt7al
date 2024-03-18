@@ -9,21 +9,25 @@ body {
     height: 400px;
 }
 
+.header {
+    display: flex;
+}
 .menu  {
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     text-transform: uppercase;   
     justify-content: center;
     width: 100%;
     height: 50px;
-    background-color: rgb(58, 61, 51);
     align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
 }
 
 .menu a {
     text-decoration: none;
-    margin: 0 30px;
-    color: white;
+    margin: 0 20px;
+    color: #111;
 }
 
 .menu a:hover {
@@ -31,36 +35,58 @@ body {
     font-weight: bolder; 
 }
 
+.menu-con {
+    display: flex;
+}
+
+.sign button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid #fff;
+    margin: 12px;
+}
+
+.sign a {
+    text-decoration: none;
+    width: 200px;
+    height: 50px;    
+}
+
+.sign a:hover {
+    color: blueviolet;
+    font-weight: bolder;
+}
+
 .image {
-    width: 400px;
-    height: 500px;
+    width: 250px;
+    height: 350px;
     background-color: black;
     margin: 20px 40px 40px 50px;
 }
 
 .anh-1 {
-    width: 270px;
-    height: 270px;
-    padding: 20px 65px;
+    width: 170px;
+    height: 170px;
+    padding: 20px 20px 0 40px;
 }
 
 .image p {
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
     color: white;
 }
 
 .jacket {
-    width: 150px;
-    height: 50px;
+    width: 130px;
+    height: 30px;
     border-radius: 10px;
     border: 1px solid black;
-    margin: 0 120px;
+    margin: 0 58px;
 }
 
 .jacket a {
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
@@ -98,11 +124,6 @@ body {
     display: flex;
 }
 
-.block {
-    width: 500px;
-    height: 1060px;
-    margin-top: 20px;
-}
 
 .block-text {
     font-size: 25px;
