@@ -13,27 +13,39 @@ body {
     display: flex;
 }
 
+header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
 .image {
-    margin: 100px 0 0 320px;
+    margin: 20px 0 0 100px;
 }
 
 .anh-1 {
-    width: 480px;
-    height: 530px;
+    width: 350px;
+    height: 400px;
 }
 
 .anh {
-    width: 150px;
-    height: 200px;
-    margin-right: 10px;
+    width: 95px;
+    height: 150px;
+    margin-right: 17px;
 }
 
 .text {
-    margin: 150px 0 0 100px;
+    margin: 20px 0 0 100px;
 }
 
 .text-sanpham {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
 }
 
@@ -95,10 +107,10 @@ body {
     height: 20px;
     margin-left: 10px;
     display: flex;
-    padding-left: 17px;
     background-color: white;
     border: 1px solid black;
     align-items: center;
+    justify-content: center;
 }
 
 .size-1:hover {
@@ -117,7 +129,6 @@ body {
     height: 20px;
     margin-left: 10px;
     display: flex;
-    padding-left: 17px;
     background-color: white;
     border: 1px solid black;
     align-items: center;
